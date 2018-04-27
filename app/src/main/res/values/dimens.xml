@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="l_mtp">102dp</dimen>
+    <dimen name="l_mtp2">15dp</dimen>
+    <dimen name="l_mtp3">20dp</dimen>
+    <dimen name="l_mtp4">51dp</dimen>
+    <dimen name="l_mtp5">31dp</dimen>
+    <dimen name="l_mtp6">97dp</dimen>
+    <dimen name="l_mtp7">52dp</dimen>
+    <dimen name="l_mtp8">34dp</dimen>
+    <dimen name="l_mtp9">156dp</dimen>
+    <dimen name="l_mtp10">30dp</dimen>
+    <dimen name="layout_margin_left">20dp</dimen>
+    <dimen name="layout_margin_right">20dp</dimen>
+    <dimen name="layout_width">230dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="text2_size">14sp</dimen>
+    <dimen name="text3_size">26sp</dimen>
+    <dimen name="text4_size">24sp</dimen>
+    <dimen name="layout_marginbtm">38dp</dimen>
+    <dimen name="layout_mbtm">25dp</dimen>
+    <dimen name="layout_mtp">70dp</dimen>
+
+</resources>

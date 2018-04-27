@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg2"
+    android:id="@+id/parent"
+    tools:context="com.example.pavlion.quizapp.Question4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:text="@string/welcome_message"
+        android:layout_marginBottom="@dimen/layout_mbtm"
+        android:textSize="@dimen/text2_size" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_marginRight="@dimen/layout_margin_right"
+        android:layout_marginTop="@dimen/l_mtp5"
+        android:text="@string/quesn_four"
+        android:textSize="@dimen/text_size" />
+
+    <Button
+        android:id="@+id/rd13"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/l_mtp4"
+        android:onClick="onClickrk"
+        android:text="@string/A_4"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/primaryButton" />
+
+    <Button
+        android:id="@+id/rd14"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rd15"
+        android:layout_alignStart="@+id/rd15"
+        android:layout_below="@+id/rd15"
+        android:layout_marginTop="@dimen/l_mtp2"
+        android:onClick="onClickym"
+        android:text="@string/B_4"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/primaryButton" />
+
+    <Button
+        android:id="@+id/rd15"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rd13"
+        android:layout_alignStart="@+id/rd13"
+        android:layout_below="@+id/rd13"
+        android:layout_marginTop="@dimen/l_mtp3"
+        android:onClick="onClickjr"
+        android:text="@string/C_4"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/primaryButton" />
+
+    <Button
+        android:id="@+id/rd16"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rd15"
+        android:layout_alignStart="@+id/rd15"
+        android:layout_below="@+id/rd14"
+        android:layout_marginTop="@dimen/l_mtp2"
+        android:onClick="onClicklt"
+        android:text="@string/D_4"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/primaryButton" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd16"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickNext"
+        android:text="@string/nxt"
+        android:layout_marginTop="@dimen/layout_mtp"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/primaryButton" />
+
+
+</RelativeLayout>
+</ScrollView>
+

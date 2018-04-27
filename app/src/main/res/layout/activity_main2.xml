@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg2"
+    tools:context="com.example.pavlion.quizapp.Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:layout_marginBottom="@dimen/layout_mbtm"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:textSize="@dimen/text2_size"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="@dimen/l_mtp5"
+        android:text="@string/quesn_two"
+        android:layout_marginLeft="@dimen/layout_margin_left"
+        android:layout_marginRight="@dimen/layout_margin_right"
+        android:textSize="@dimen/text_size"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:id="@+id/rd5"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/l_mtp4"
+        android:text="@string/A_2"
+        android:onClick="onClick1994"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/primaryButton" />
+
+    <Button
+        android:id="@+id/rd6"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rd7"
+        android:layout_alignStart="@+id/rd7"
+        android:layout_below="@+id/rd7"
+        android:layout_marginTop="@dimen/l_mtp2"
+        android:onClick="onClick1956"
+        android:text="@string/B_2"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/primaryButton"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:id="@+id/rd7"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rd5"
+        android:layout_alignStart="@+id/rd5"
+        android:layout_below="@+id/rd5"
+        android:layout_marginTop="@dimen/l_mtp3"
+        android:onClick="onClick2006"
+        android:text="@string/C_2"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/primaryButton"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:id="@+id/rd8"
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rd7"
+        android:layout_alignStart="@+id/rd7"
+        android:layout_below="@+id/rd6"
+        android:layout_marginTop="@dimen/l_mtp2"
+        android:text="@string/D_2"
+        android:onClick="onClick1998"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/primaryButton"
+        android:textColor="@color/colorText"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd8"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickNext"
+        android:text="@string/nxt"
+        android:layout_marginTop="@dimen/layout_mtp"
+        android:textColor="@color/colorText"
+        android:textSize="@dimen/text_size"
+        android:theme="@style/primaryButton" />
+
+
+
+</RelativeLayout>
+</ScrollView>
