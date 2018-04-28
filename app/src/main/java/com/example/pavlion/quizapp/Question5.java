@@ -7,21 +7,37 @@ import android.view.View;
 import android.widget.Toast;
 
 public class Question5 extends AppCompatActivity {
+    Button btn17 = (Button) findViewById(R.id.rd17);
+    Button btn18 = (Button) findViewById(R.id.rd18);
+    Button btn19 = (Button) findViewById(R.id.rd19);
+    Button btn20 = (Button) findViewById(R.id.rd20);
 
     public void onClickaugust(View view) {
         Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        btn18.setEnabled(false);
+        btn19.setEnabled(false);
+        btn20.setEnabled(false);
     }
 
     public void onClickjuly(View view) {
         Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        btn17.setEnabled(false);
+        btn19.setEnabled(false);
+        btn20.setEnabled(false);
     }
 
     public void onClickdecember(View view) {
         Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        btn17.setEnabled(false);
+        btn18.setEnabled(false);
+        btn20.setEnabled(false);
     }
 
     public void onClickjune(View view) {
         Toast.makeText(this, "Correct! Well Done", Toast.LENGTH_SHORT).show();
+        btn17.setEnabled(false);
+        btn18.setEnabled(false);
+        btn19.setEnabled(false);
     }
 
 
