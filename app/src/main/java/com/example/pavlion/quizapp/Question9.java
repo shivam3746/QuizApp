@@ -14,30 +14,30 @@ public class Question9 extends AppCompatActivity {
 
     public void onClickAntarctica(View view) {
         Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
-        rd34.setEnabled(false);
-        rd35.setEnabled(false);
-        rd36.setEnabled(false);
+        btn34.setEnabled(false);
+        btn35.setEnabled(false);
+        btn36.setEnabled(false);
     }
 
     public void onClickEurope(View view) {
         Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
-        rd33.setEnabled(false);
-        rd35.setEnabled(false);
-        rd36.setEnabled(false);
+        btn33.setEnabled(false);
+        btn35.setEnabled(false);
+        btn36.setEnabled(false);
     }
 
     public void onClickAsia(View view) {
         Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
-        rd33.setEnabled(false);
-        rd34.setEnabled(false);
-        rd36.setEnabled(false);
+        btn33.setEnabled(false);
+        btn34.setEnabled(false);
+        btn36.setEnabled(false);
     }
 
     public void onClickAfrica(View view) {
         Toast.makeText(this, "Correct! Well Done", Toast.LENGTH_SHORT).show();
-        rd33.setEnabled(false);
-        rd34.setEnabled(false);
-        rd35.setEnabled(false);
+        btn33.setEnabled(false);
+        btn34.setEnabled(false);
+        btn35.setEnabled(false);
     }
 
 
