@@ -14,30 +14,30 @@ public class Question10 extends AppCompatActivity {
 
     public void onClickobama(View view) {
         Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
-        rd38.setEnabled(false);
-        rd39.setEnabled(false);
-        rd40.setEnabled(false);
+        btn38.setEnabled(false);
+        btn39.setEnabled(false);
+        btn40.setEnabled(false);
     }
 
     public void onClickbclinton(View view) {
         Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
-        rd37.setEnabled(false);
-        rd39.setEnabled(false);
-        rd40.setEnabled(false);
+        btn37.setEnabled(false);
+        btn39.setEnabled(false);
+        btn40.setEnabled(false);
     }
 
     public void onClickhclinton(View view) {
         Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
-        rd37.setEnabled(false);
-        rd38.setEnabled(false);
-        rd40.setEnabled(false);
+        btn37.setEnabled(false);
+        btn38.setEnabled(false);
+        btn40.setEnabled(false);
     }
 
     public void onClicktrump(View view) {
         Toast.makeText(this, "Correct! Well Done", Toast.LENGTH_SHORT).show();
-        rd37.setEnabled(false);
-        rd38.setEnabled(false);
-        rd39.setEnabled(false);
+        btn37.setEnabled(false);
+        btn38.setEnabled(false);
+        btn39.setEnabled(false);
     }
 
 
