@@ -9,19 +9,31 @@ import android.widget.Toast;
 public class Question8 extends AppCompatActivity {
 
     public void onClickBrazil(View view) {
-        Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
+        rd30.setEnabled(false);
+        rd31.setEnabled(false);
+        rd32.setEnabled(false);
     }
 
     public void onClickIndia(View view) {
-        Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
+        rd29.setEnabled(false);
+        rd31.setEnabled(false);
+        rd32.setEnabled(false);
     }
 
     public void onClickCanada(View view) {
-        Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
+        rd29.setEnabled(false);
+        rd30.setEnabled(false);
+        rd32.setEnabled(false);
     }
 
     public void onClickChina(View view) {
         Toast.makeText(this, "Correct! Well Done", Toast.LENGTH_SHORT).show();
+        rd29.setEnabled(false);
+        rd30.setEnabled(false);
+        rd31.setEnabled(false);
     }
 
 
