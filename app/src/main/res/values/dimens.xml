@@ -20,5 +20,6 @@
     <dimen name="layout_marginbtm">38dp</dimen>
     <dimen name="layout_mbtm">25dp</dimen>
     <dimen name="layout_mtp">70dp</dimen>
+    <dimen name="layout_mtp2">8dp</dimen>
 
 </resources>
