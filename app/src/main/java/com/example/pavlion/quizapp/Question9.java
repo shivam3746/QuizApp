@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.Toast;
 
 public class Question9 extends AppCompatActivity {
+    Button btn33 = (Button) findViewById(R.id.rd33);
+    Button btn34 = (Button) findViewById(R.id.rd34);
+    Button btn35 = (Button) findViewById(R.id.rd35);
+    Button btn36 = (Button) findViewById(R.id.rd36);
 
     public void onClickAntarctica(View view) {
         Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
