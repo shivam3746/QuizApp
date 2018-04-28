@@ -14,30 +14,30 @@ public class Question7 extends AppCompatActivity {
 
     public void onClickrugby(View view) {
         Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
-        rd26.setEnabled(false);
-        rd27.setEnabled(false);
-        rd28.setEnabled(false);
+        btn26.setEnabled(false);
+        btn27.setEnabled(false);
+        btn28.setEnabled(false);
     }
 
     public void onClickicehockey(View view) {
         Toast.makeText(this, "Correct! Well Done", Toast.LENGTH_SHORT).show();
-        rd25.setEnabled(false);
-        rd27.setEnabled(false);
-        rd28.setEnabled(false);
+        btn25.setEnabled(false);
+        btn27.setEnabled(false);
+        btn28.setEnabled(false);
     }
 
     public void onClickfootball(View view) {
         Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
-        rd25.setEnabled(false);
-        rd26.setEnabled(false);
-        rd28.setEnabled(false);
+        btn25.setEnabled(false);
+        btn26.setEnabled(false);
+        btn28.setEnabled(false);
     }
 
     public void onClickcricket(View view) {
         Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
-        rd25.setEnabled(false);
-        rd26.setEnabled(false);
-        rd27.setEnabled(false);
+        btn25.setEnabled(false);
+        btn26.setEnabled(false);
+        btn27.setEnabled(false);
     }
 
 
