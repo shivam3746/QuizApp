@@ -15,14 +15,14 @@ public class Question4 extends AppCompatActivity {
 
 
     public void onClickrk(View view) {
-        Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
         btn14.setEnabled(false);
         btn15.setEnabled(false);
         btn16.setEnabled(false);
     }
 
     public void onClickjr(View view) {
-        Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
         btn13.setEnabled(false);
         btn15.setEnabled(false);
         btn16.setEnabled(false);
@@ -36,7 +36,7 @@ public class Question4 extends AppCompatActivity {
     }
 
     public void onClicklt(View view) {
-        Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
         btn13.setEnabled(false);
         btn14.setEnabled(false);
         btn15.setEnabled(false);
