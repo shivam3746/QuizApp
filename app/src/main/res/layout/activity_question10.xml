@@ -19,6 +19,7 @@
         android:layout_centerInParent="true"
         android:text="@string/welcome_message"
         android:layout_marginBottom="@dimen/layout_mbtm"
+        android:layout_marginTop="@dimen/layout_mtp2"
         android:textSize="@dimen/text2_size" />
 
     <TextView
