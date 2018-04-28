@@ -13,21 +13,21 @@ public class Question5 extends AppCompatActivity {
     Button btn20 = (Button) findViewById(R.id.rd20);
 
     public void onClickaugust(View view) {
-        Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
         btn18.setEnabled(false);
         btn19.setEnabled(false);
         btn20.setEnabled(false);
     }
 
     public void onClickjuly(View view) {
-        Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
         btn17.setEnabled(false);
         btn19.setEnabled(false);
         btn20.setEnabled(false);
     }
 
     public void onClickdecember(View view) {
-        Toast.makeText(this, "Wrong! Try again", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Wrong! Better luck next time", Toast.LENGTH_SHORT).show();
         btn17.setEnabled(false);
         btn18.setEnabled(false);
         btn20.setEnabled(false);
